@@ -22,7 +22,7 @@ char decrypt(char letter, int slideValue) {
     if (0x41 <= letter && letter <= 0x5A) {
         // se è al limite dei maiuscoli ritorna il primo di essi
         if (result < 0x41)
-            return result + 0x1A;
+            return result + 0x1A; // incrementa
         else
             return result;
     }

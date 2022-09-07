@@ -1,3 +1,4 @@
+#include "stdio.h"
 
 char charInput(char testo[]) {
     char c;
